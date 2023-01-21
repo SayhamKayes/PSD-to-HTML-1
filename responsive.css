@@ -1,0 +1,148 @@
+@media (max-width:952px) 
+{
+    .main-device
+    {
+    	width: 100%;
+    }
+    .main-device p
+    {
+    	margin-bottom: 20px;
+    }
+    .showcase-bottom ul li
+    {
+    	width: 40%;
+    	margin-left: 50px;
+    }
+    .my-form input[type=submit]
+    {
+    	margin-left: 7px;
+    }
+	.footer-right ul li 
+	{
+		width: 20%;
+		margin-left: 2px;
+	}	
+}
+@media (max-width: 768px)
+{
+	.my-form
+	{
+		width: 80%;
+	}
+    .my-form input[type=submit]
+    {
+    	margin-left: 58px;
+    }
+	.footer-right ul li 
+	{
+		width: 20%;
+		margin-left: 0;
+	}	
+}
+@media (max-width: 739px)
+{
+	.my-form
+	{
+		width: 80%;
+	}
+    .my-form input[type=submit]
+    {
+    	margin-left: 0;
+    }
+	.footer-right ul li 
+	{
+		width: 20%;
+		margin-left: 2px;
+	}	
+}
+@media (max-width: 677px) and (min-width: 667px)
+{
+	.my-form
+	{
+		width: 80%;
+	}
+	.my-form input[type=submit] 
+	{
+		padding: 10px 15px;
+		margin-left: 0;
+	}
+    .showcase-bottom ul li
+    {
+    	width: 85%;
+    	margin-left: 40px;
+    }
+	.footer-right ul li 
+	{
+		width: 20%;
+		margin-left: 2px;
+	}		
+}
+@media (max-width: 666px)
+{
+	.my-form input[type=submit] 
+	{
+		padding: 10px 12px;
+		margin-left: 0;
+	}
+    .showcase-bottom ul li
+    {
+    	width: 85%;
+    	margin-left: 40px;
+    }	
+	.footer-right ul li 
+	{
+		width: 20%;
+		margin-left: 5px;
+	}	
+}
+@media (max-width: 538px) 
+{
+	.my-form
+	{
+		width: 80%;
+	}
+	.my-form input[type=submit] 
+	{
+		padding: 10px 10px;
+		margin-left: 0;
+	}	
+	.footer-right ul li 
+	{
+		width: 20%;
+		margin-left: 5px;
+	}
+}
+@media (max-width: 499px) 
+{
+	.my-form
+	{
+		width: 80%;
+	}
+	.my-form input[type=submit] 
+	{
+		padding: 10px 10px;
+		margin-left: 0;
+	}	
+	.footer-right ul li 
+	{
+		width: 20%;
+		margin-left: 5px;
+	}
+}
+@media (max-width: 463px) 
+{
+	.my-form
+	{
+		width: 80%;
+	}
+	.my-form input[type=submit] 
+	{
+		padding: 10px 10px;
+		margin-left: 0;
+	}
+	.footer-right ul li 
+	{
+		width: 20%;
+		margin-left: 5px;
+	}
+}

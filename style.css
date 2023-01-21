@@ -1,0 +1,212 @@
+/*
+	Theme name: STRICT;
+	Theme URI : Strict.com;
+	Author name: Sayhum kayes;
+	Author URI: facebook.com/sayhumkayes;
+	Discription: ..... ;
+	Version: 1.0;
+*/
+/*
+	INDEX:
+		1.0 - Header Area
+		2.0 - Banner Area
+		3.0 - Description Area
+		4.0 - Device area
+		5.0 - Showcase Area
+		6.0 - Contact Area
+		7.0 - Footer Area
+*/
+/*Typography*/
+
+body, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 700;
+}
+p {
+	margin: 0;
+	font-weight: 400;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* 1.0 Header Area */
+header {
+	padding: 20px 0;
+	background: #f6f9f9;
+	overflow: hidden;
+}
+
+/* 2.0 Banner Area */
+.banner {
+	background: url(img/bg.png) no-repeat center center / 100% 100%;
+	text-align: center;
+	padding: 100px 0;
+	overflow: hidden;
+}
+.banner h1 {
+	font-size: 70px;
+	color: #fff;
+	font-weight: 700;
+}
+.banner hr {
+	width: 40%;
+	border: 1px solid #15a4fa;
+}
+.banner p {
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 60px;
+}
+.banner a {
+	color: #fff;
+	border: 2px solid #15a4fa;
+	padding: 10px 20px;
+	border-radius: 3px;
+	transition: 1s;
+}
+.banner a:hover {
+	border: 2px solid #111;
+	padding: 10px 20px;
+}
+
+/* 3.0 Description Area */
+.description {
+	text-align: center;
+	padding: 60px 0;
+	background: #f6f9f9;
+}
+.description h1 {
+	color: #2d3950;
+}
+.description p {
+	color: #a0a0a0;
+	font-size: 15px;
+}
+
+/* 4.0 Device Area */
+.device {
+	padding: 50px 0;
+	overflow: hidden;
+}
+.main-device {
+	width: 31%;
+	margin: 0 10px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+}
+.main-device p {
+	color: #a0a0a0;
+}
+
+/* 5.0 Showcase Area */
+.showcase {
+	background: #f6f9f9;
+	padding: 50px 0;
+	overflow: hidden; 
+}
+.showcase-top {
+	text-align: center;
+}
+.showcase-top p {
+	font-size: 18px;
+	color: #a0a0a0;
+}
+.showcase-bottom {
+	padding: 60px 0;
+}
+.showcase-bottom ul li {
+	width: 31%;
+	float: left;
+	overflow: hidden;
+	margin: 10px 10px;
+}
+.showcase-bottom ul li a img {
+	width: 100%;
+}
+
+/* 6.0 Contact Area */
+.contact {
+	background: url(img/contactbg.png) no-repeat center center / 100% 100%;
+	padding: 50px 0;
+}
+.form-info {
+	text-align: center;
+}
+.form-info h1 {
+	color: #fff;
+	font-size: 40px;
+}
+.form-info p {
+	color: #999999;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.form-input {
+	width: 100%;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	background: transparent;
+	transition: 1s;
+	margin-top: 10px;
+	border-radius: 2px;
+}
+.form-input:hover {
+	border: 1px solid #000;
+	color: #999999;
+}
+.my-form {
+	width: 50%;
+	margin: 0 auto;
+}
+.checkbox {
+	color: #999999;
+}
+.my-form input[type=submit] {
+	background: transparent;
+	padding: 10px 20px;
+	border-radius: 3px;
+	border: 1px solid #15a4fa;
+	margin-top: 10px;
+	margin-left: 65px;
+	transition: 1s;
+	color: #fff;
+	cursor: pointer;
+}
+.my-form input[type=submit]:hover {
+	border: 1px solid #111111;
+}
+
+/* 7.0 Footer Area */
+footer {
+	padding: 20px 0;
+	background: #f6f9f9;
+	color: #999999;
+}
+.footer-left {
+	margin-top: 15px;
+	width: 60%;
+	float: left;
+}
+.footer-right {
+	width: 40%;
+	overflow: hidden;
+}
+.footer-right ul li {
+	width: 10%;
+	float: right;
+	overflow: hidden;
+	margin-left: 10px;
+}
